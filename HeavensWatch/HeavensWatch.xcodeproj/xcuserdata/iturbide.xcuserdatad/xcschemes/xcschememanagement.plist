@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>HeavensWatch WatchKit App (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>HeavensWatch WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>HeavensWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>521EB8A31E260FE400F1DBFD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>521EB8B71E260FE500F1DBFD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>521EB8C21E260FE500F1DBFD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>521EB8CB1E260FE500F1DBFD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

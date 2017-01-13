@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521EB8A81E260FE500F1DBFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EB8A71E260FE500F1DBFD /* AppDelegate.swift */; };
+		521EB8AA1E260FE500F1DBFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EB8A91E260FE500F1DBFD /* ViewController.swift */; };
+		521EB8AD1E260FE500F1DBFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521EB8AB1E260FE500F1DBFD /* Main.storyboard */; };
+		521EB8AF1E260FE500F1DBFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521EB8AE1E260FE500F1DBFD /* Assets.xcassets */; };
+		521EB8B21E260FE500F1DBFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521EB8B01E260FE500F1DBFD /* LaunchScreen.storyboard */; };
+		521EB8BD1E260FE500F1DBFD /* HeavensWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EB8BC1E260FE500F1DBFD /* HeavensWatchTests.swift */; };
+		521EB8C81E260FE500F1DBFD /* HeavensWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EB8C71E260FE500F1DBFD /* HeavensWatchUITests.swift */; };
+		521EB8CD1E260FE500F1DBFD /* HeavensWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 521EB8CC1E260FE500F1DBFD /* HeavensWatch WatchKit App.app */; };
+		521EB8D31E260FE500F1DBFD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521EB8D11E260FE500F1DBFD /* Interface.storyboard */; };
+		521EB8D51E260FE500F1DBFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521EB8D41E260FE500F1DBFD /* Assets.xcassets */; };
+		521EB8DC1E260FE500F1DBFD /* HeavensWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 521EB8DB1E260FE500F1DBFD /* HeavensWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		521EB8E31E260FE500F1DBFD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EB8E21E260FE500F1DBFD /* InterfaceController.swift */; };
+		521EB8E51E260FE500F1DBFD /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EB8E41E260FE500F1DBFD /* ExtensionDelegate.swift */; };
+		521EB8E71E260FE500F1DBFD /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EB8E61E260FE500F1DBFD /* NotificationController.swift */; };
+		521EB8E91E260FE500F1DBFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521EB8E81E260FE500F1DBFD /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		521EB8B91E260FE500F1DBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521EB89C1E260FE400F1DBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521EB8A31E260FE400F1DBFD;
+			remoteInfo = HeavensWatch;
+		};
+		521EB8C41E260FE500F1DBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521EB89C1E260FE400F1DBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521EB8A31E260FE400F1DBFD;
+			remoteInfo = HeavensWatch;
+		};
+		521EB8CE1E260FE500F1DBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521EB89C1E260FE400F1DBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521EB8CB1E260FE500F1DBFD;
+			remoteInfo = "HeavensWatch WatchKit App";
+		};
+		521EB8DD1E260FE500F1DBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521EB89C1E260FE400F1DBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521EB8DA1E260FE500F1DBFD;
+			remoteInfo = "HeavensWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		521EB8F01E260FE500F1DBFD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				521EB8DC1E260FE500F1DBFD /* HeavensWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521EB8F41E260FE500F1DBFD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				521EB8CD1E260FE500F1DBFD /* HeavensWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		521EB8A41E260FE500F1DBFD /* HeavensWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeavensWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		521EB8A71E260FE500F1DBFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		521EB8A91E260FE500F1DBFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		521EB8AC1E260FE500F1DBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		521EB8AE1E260FE500F1DBFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521EB8B11E260FE500F1DBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		521EB8B31E260FE500F1DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521EB8B81E260FE500F1DBFD /* HeavensWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeavensWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		521EB8BC1E260FE500F1DBFD /* HeavensWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeavensWatchTests.swift; sourceTree = "<group>"; };
+		521EB8BE1E260FE500F1DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521EB8C31E260FE500F1DBFD /* HeavensWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeavensWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		521EB8C71E260FE500F1DBFD /* HeavensWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeavensWatchUITests.swift; sourceTree = "<group>"; };
+		521EB8C91E260FE500F1DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521EB8CC1E260FE500F1DBFD /* HeavensWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeavensWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		521EB8D21E260FE500F1DBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		521EB8D41E260FE500F1DBFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521EB8D61E260FE500F1DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521EB8DB1E260FE500F1DBFD /* HeavensWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HeavensWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		521EB8E11E260FE500F1DBFD /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		521EB8E21E260FE500F1DBFD /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		521EB8E41E260FE500F1DBFD /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		521EB8E61E260FE500F1DBFD /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		521EB8E81E260FE500F1DBFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521EB8EA1E260FE500F1DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		521EB8A11E260FE400F1DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521EB8B51E260FE500F1DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521EB8C01E260FE500F1DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521EB8D81E260FE500F1DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		521EB89B1E260FE400F1DBFD = {
+			isa = PBXGroup;
+			children = (
+				521EB8A61E260FE500F1DBFD /* HeavensWatch */,
+				521EB8BB1E260FE500F1DBFD /* HeavensWatchTests */,
+				521EB8C61E260FE500F1DBFD /* HeavensWatchUITests */,
+				521EB8D01E260FE500F1DBFD /* HeavensWatch WatchKit App */,
+				521EB8DF1E260FE500F1DBFD /* HeavensWatch WatchKit Extension */,
+				521EB8A51E260FE500F1DBFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		521EB8A51E260FE500F1DBFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				521EB8A41E260FE500F1DBFD /* HeavensWatch.app */,
+				521EB8B81E260FE500F1DBFD /* HeavensWatchTests.xctest */,
+				521EB8C31E260FE500F1DBFD /* HeavensWatchUITests.xctest */,
+				521EB8CC1E260FE500F1DBFD /* HeavensWatch WatchKit App.app */,
+				521EB8DB1E260FE500F1DBFD /* HeavensWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		521EB8A61E260FE500F1DBFD /* HeavensWatch */ = {
+			isa = PBXGroup;
+			children = (
+				521EB8A71E260FE500F1DBFD /* AppDelegate.swift */,
+				521EB8A91E260FE500F1DBFD /* ViewController.swift */,
+				521EB8AB1E260FE500F1DBFD /* Main.storyboard */,
+				521EB8AE1E260FE500F1DBFD /* Assets.xcassets */,
+				521EB8B01E260FE500F1DBFD /* LaunchScreen.storyboard */,
+				521EB8B31E260FE500F1DBFD /* Info.plist */,
+			);
+			path = HeavensWatch;
+			sourceTree = "<group>";
+		};
+		521EB8BB1E260FE500F1DBFD /* HeavensWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				521EB8BC1E260FE500F1DBFD /* HeavensWatchTests.swift */,
+				521EB8BE1E260FE500F1DBFD /* Info.plist */,
+			);
+			path = HeavensWatchTests;
+			sourceTree = "<group>";
+		};
+		521EB8C61E260FE500F1DBFD /* HeavensWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				521EB8C71E260FE500F1DBFD /* HeavensWatchUITests.swift */,
+				521EB8C91E260FE500F1DBFD /* Info.plist */,
+			);
+			path = HeavensWatchUITests;
+			sourceTree = "<group>";
+		};
+		521EB8D01E260FE500F1DBFD /* HeavensWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				521EB8D11E260FE500F1DBFD /* Interface.storyboard */,
+				521EB8D41E260FE500F1DBFD /* Assets.xcassets */,
+				521EB8D61E260FE500F1DBFD /* Info.plist */,
+			);
+			path = "HeavensWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		521EB8DF1E260FE500F1DBFD /* HeavensWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				521EB8E21E260FE500F1DBFD /* InterfaceController.swift */,
+				521EB8E41E260FE500F1DBFD /* ExtensionDelegate.swift */,
+				521EB8E61E260FE500F1DBFD /* NotificationController.swift */,
+				521EB8E81E260FE500F1DBFD /* Assets.xcassets */,
+				521EB8EA1E260FE500F1DBFD /* Info.plist */,
+				521EB8E01E260FE500F1DBFD /* Supporting Files */,
+			);
+			path = "HeavensWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		521EB8E01E260FE500F1DBFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				521EB8E11E260FE500F1DBFD /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		521EB8A31E260FE400F1DBFD /* HeavensWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521EB8F51E260FE500F1DBFD /* Build configuration list for PBXNativeTarget "HeavensWatch" */;
+			buildPhases = (
+				521EB8A01E260FE400F1DBFD /* Sources */,
+				521EB8A11E260FE400F1DBFD /* Frameworks */,
+				521EB8A21E260FE400F1DBFD /* Resources */,
+				521EB8F41E260FE500F1DBFD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521EB8CF1E260FE500F1DBFD /* PBXTargetDependency */,
+			);
+			name = HeavensWatch;
+			productName = HeavensWatch;
+			productReference = 521EB8A41E260FE500F1DBFD /* HeavensWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		521EB8B71E260FE500F1DBFD /* HeavensWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521EB8F81E260FE500F1DBFD /* Build configuration list for PBXNativeTarget "HeavensWatchTests" */;
+			buildPhases = (
+				521EB8B41E260FE500F1DBFD /* Sources */,
+				521EB8B51E260FE500F1DBFD /* Frameworks */,
+				521EB8B61E260FE500F1DBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521EB8BA1E260FE500F1DBFD /* PBXTargetDependency */,
+			);
+			name = HeavensWatchTests;
+			productName = HeavensWatchTests;
+			productReference = 521EB8B81E260FE500F1DBFD /* HeavensWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		521EB8C21E260FE500F1DBFD /* HeavensWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521EB8FB1E260FE500F1DBFD /* Build configuration list for PBXNativeTarget "HeavensWatchUITests" */;
+			buildPhases = (
+				521EB8BF1E260FE500F1DBFD /* Sources */,
+				521EB8C01E260FE500F1DBFD /* Frameworks */,
+				521EB8C11E260FE500F1DBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521EB8C51E260FE500F1DBFD /* PBXTargetDependency */,
+			);
+			name = HeavensWatchUITests;
+			productName = HeavensWatchUITests;
+			productReference = 521EB8C31E260FE500F1DBFD /* HeavensWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		521EB8CB1E260FE500F1DBFD /* HeavensWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521EB8F11E260FE500F1DBFD /* Build configuration list for PBXNativeTarget "HeavensWatch WatchKit App" */;
+			buildPhases = (
+				521EB8CA1E260FE500F1DBFD /* Resources */,
+				521EB8F01E260FE500F1DBFD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521EB8DE1E260FE500F1DBFD /* PBXTargetDependency */,
+			);
+			name = "HeavensWatch WatchKit App";
+			productName = "HeavensWatch WatchKit App";
+			productReference = 521EB8CC1E260FE500F1DBFD /* HeavensWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		521EB8DA1E260FE500F1DBFD /* HeavensWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521EB8ED1E260FE500F1DBFD /* Build configuration list for PBXNativeTarget "HeavensWatch WatchKit Extension" */;
+			buildPhases = (
+				521EB8D71E260FE500F1DBFD /* Sources */,
+				521EB8D81E260FE500F1DBFD /* Frameworks */,
+				521EB8D91E260FE500F1DBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeavensWatch WatchKit Extension";
+			productName = "HeavensWatch WatchKit Extension";
+			productReference = 521EB8DB1E260FE500F1DBFD /* HeavensWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		521EB89C1E260FE400F1DBFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Daniel Munoz";
+				TargetAttributes = {
+					521EB8A31E260FE400F1DBFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BL2A642B49;
+						ProvisioningStyle = Automatic;
+					};
+					521EB8B71E260FE500F1DBFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BL2A642B49;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 521EB8A31E260FE400F1DBFD;
+					};
+					521EB8C21E260FE500F1DBFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BL2A642B49;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 521EB8A31E260FE400F1DBFD;
+					};
+					521EB8CB1E260FE500F1DBFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BL2A642B49;
+						ProvisioningStyle = Automatic;
+					};
+					521EB8DA1E260FE500F1DBFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BL2A642B49;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 521EB89F1E260FE400F1DBFD /* Build configuration list for PBXProject "HeavensWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 521EB89B1E260FE400F1DBFD;
+			productRefGroup = 521EB8A51E260FE500F1DBFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				521EB8A31E260FE400F1DBFD /* HeavensWatch */,
+				521EB8B71E260FE500F1DBFD /* HeavensWatchTests */,
+				521EB8C21E260FE500F1DBFD /* HeavensWatchUITests */,
+				521EB8CB1E260FE500F1DBFD /* HeavensWatch WatchKit App */,
+				521EB8DA1E260FE500F1DBFD /* HeavensWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		521EB8A21E260FE400F1DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521EB8B21E260FE500F1DBFD /* LaunchScreen.storyboard in Resources */,
+				521EB8AF1E260FE500F1DBFD /* Assets.xcassets in Resources */,
+				521EB8AD1E260FE500F1DBFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521EB8B61E260FE500F1DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521EB8C11E260FE500F1DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521EB8CA1E260FE500F1DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521EB8D51E260FE500F1DBFD /* Assets.xcassets in Resources */,
+				521EB8D31E260FE500F1DBFD /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521EB8D91E260FE500F1DBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521EB8E91E260FE500F1DBFD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		521EB8A01E260FE400F1DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521EB8AA1E260FE500F1DBFD /* ViewController.swift in Sources */,
+				521EB8A81E260FE500F1DBFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521EB8B41E260FE500F1DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521EB8BD1E260FE500F1DBFD /* HeavensWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521EB8BF1E260FE500F1DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521EB8C81E260FE500F1DBFD /* HeavensWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521EB8D71E260FE500F1DBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521EB8E71E260FE500F1DBFD /* NotificationController.swift in Sources */,
+				521EB8E51E260FE500F1DBFD /* ExtensionDelegate.swift in Sources */,
+				521EB8E31E260FE500F1DBFD /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		521EB8BA1E260FE500F1DBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521EB8A31E260FE400F1DBFD /* HeavensWatch */;
+			targetProxy = 521EB8B91E260FE500F1DBFD /* PBXContainerItemProxy */;
+		};
+		521EB8C51E260FE500F1DBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521EB8A31E260FE400F1DBFD /* HeavensWatch */;
+			targetProxy = 521EB8C41E260FE500F1DBFD /* PBXContainerItemProxy */;
+		};
+		521EB8CF1E260FE500F1DBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521EB8CB1E260FE500F1DBFD /* HeavensWatch WatchKit App */;
+			targetProxy = 521EB8CE1E260FE500F1DBFD /* PBXContainerItemProxy */;
+		};
+		521EB8DE1E260FE500F1DBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521EB8DA1E260FE500F1DBFD /* HeavensWatch WatchKit Extension */;
+			targetProxy = 521EB8DD1E260FE500F1DBFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		521EB8AB1E260FE500F1DBFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521EB8AC1E260FE500F1DBFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		521EB8B01E260FE500F1DBFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521EB8B11E260FE500F1DBFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		521EB8D11E260FE500F1DBFD /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521EB8D21E260FE500F1DBFD /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		521EB8EB1E260FE500F1DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		521EB8EC1E260FE500F1DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		521EB8EE1E260FE500F1DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = BL2A642B49;
+				INFOPLIST_FILE = "HeavensWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fakegravity.apps.HeavensWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		521EB8EF1E260FE500F1DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = BL2A642B49;
+				INFOPLIST_FILE = "HeavensWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fakegravity.apps.HeavensWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		521EB8F21E260FE500F1DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BL2A642B49;
+				IBSC_MODULE = HeavensWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "HeavensWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fakegravity.apps.HeavensWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		521EB8F31E260FE500F1DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BL2A642B49;
+				IBSC_MODULE = HeavensWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "HeavensWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fakegravity.apps.HeavensWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		521EB8F61E260FE500F1DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BL2A642B49;
+				INFOPLIST_FILE = HeavensWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fakegravity.apps.HeavensWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		521EB8F71E260FE500F1DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BL2A642B49;
+				INFOPLIST_FILE = HeavensWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fakegravity.apps.HeavensWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		521EB8F91E260FE500F1DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BL2A642B49;
+				INFOPLIST_FILE = HeavensWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fakegravity.apps.HeavensWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeavensWatch.app/HeavensWatch";
+			};
+			name = Debug;
+		};
+		521EB8FA1E260FE500F1DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BL2A642B49;
+				INFOPLIST_FILE = HeavensWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fakegravity.apps.HeavensWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeavensWatch.app/HeavensWatch";
+			};
+			name = Release;
+		};
+		521EB8FC1E260FE500F1DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BL2A642B49;
+				INFOPLIST_FILE = HeavensWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fakegravity.apps.HeavensWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HeavensWatch;
+			};
+			name = Debug;
+		};
+		521EB8FD1E260FE500F1DBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BL2A642B49;
+				INFOPLIST_FILE = HeavensWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fakegravity.apps.HeavensWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HeavensWatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		521EB89F1E260FE400F1DBFD /* Build configuration list for PBXProject "HeavensWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521EB8EB1E260FE500F1DBFD /* Debug */,
+				521EB8EC1E260FE500F1DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521EB8ED1E260FE500F1DBFD /* Build configuration list for PBXNativeTarget "HeavensWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521EB8EE1E260FE500F1DBFD /* Debug */,
+				521EB8EF1E260FE500F1DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		521EB8F11E260FE500F1DBFD /* Build configuration list for PBXNativeTarget "HeavensWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521EB8F21E260FE500F1DBFD /* Debug */,
+				521EB8F31E260FE500F1DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		521EB8F51E260FE500F1DBFD /* Build configuration list for PBXNativeTarget "HeavensWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521EB8F61E260FE500F1DBFD /* Debug */,
+				521EB8F71E260FE500F1DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		521EB8F81E260FE500F1DBFD /* Build configuration list for PBXNativeTarget "HeavensWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521EB8F91E260FE500F1DBFD /* Debug */,
+				521EB8FA1E260FE500F1DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		521EB8FB1E260FE500F1DBFD /* Build configuration list for PBXNativeTarget "HeavensWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521EB8FC1E260FE500F1DBFD /* Debug */,
+				521EB8FD1E260FE500F1DBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 521EB89C1E260FE400F1DBFD /* Project object */;
+}
